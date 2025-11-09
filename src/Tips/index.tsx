@@ -16,7 +16,7 @@ export function Tips() {
   const tipsForNoActiveTask = {
     workTime: (
       <span>
-        Próximo ciclo é de <b>{state.config.workTime}</b>
+        Próximo ciclo é de <b>{state.config.workTime}min</b>
       </span>
     ),
     shortBreakTime: (
