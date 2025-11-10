@@ -14,7 +14,7 @@ export function AboutPomodoro() {
     <MainTemplate>
       <Container>
         <GenericHtml>
-          <Heading>A Técnica Pomodoro 🍅</Heading>
+          <Heading>A Técnica Pomodoro</Heading>
 
           <p>
             A Técnica Pomodoro é uma metodologia de produtividade criada por{" "}
@@ -23,8 +23,6 @@ export function AboutPomodoro() {
             com pausas. O objetivo é manter o foco total por um período curto e
             garantir descansos para evitar o cansaço mental.
           </p>
-
-          <img src="https://placehold.co/1920x1080" alt="" />
 
           <h2>Como funciona o Pomodoro tradicional?</h2>
           <ul>
@@ -44,7 +42,7 @@ export function AboutPomodoro() {
           </ul>
 
           <h2>
-            Mas no <strong>Chronos Pomodoro</strong> tem um diferencial 🚀
+            Mas no <strong>Chronos Pomodoro</strong> tem um diferencial
           </h2>
 
           <p>
@@ -52,7 +50,7 @@ export function AboutPomodoro() {
             personalizações pra deixar o processo ainda mais eficiente:
           </p>
 
-          <h3>⚙️ Personalização do tempo</h3>
+          <h3>Personalização do tempo</h3>
           <p>
             Você pode configurar o tempo de foco, descanso curto e descanso
             longo do jeito que quiser! Basta acessar a{" "}
@@ -60,11 +58,11 @@ export function AboutPomodoro() {
             ajustar os minutos como preferir.
           </p>
 
-          <h3>🔁 Ciclos organizados em sequência</h3>
+          <h3>Ciclos organizados em sequência</h3>
           <p>
-            A cada ciclo completado, uma nova task é adicionada automaticamente
-            ao seu histórico, e o app já sugere o próximo ciclo (foco ou
-            descanso).
+            A cada ciclo completado, uma nova tarefa é adicionada
+            automaticamente ao seu histórico, e o app já sugere o próximo ciclo
+            (foco ou descanso).
           </p>
           <p>
             <strong>Nosso padrão:</strong>
@@ -82,7 +80,7 @@ export function AboutPomodoro() {
             </li>
           </ul>
 
-          <h3>🍅 Visualização dos ciclos</h3>
+          <h3>Visualização dos ciclos</h3>
           <p>
             Logo abaixo do cronômetro, você verá bolinhas coloridas
             representando os ciclos:
@@ -99,7 +97,7 @@ export function AboutPomodoro() {
             cabeça!
           </p>
 
-          <h3>📊 Histórico automático</h3>
+          <h3>Histórico automático</h3>
           <p>
             Todas as suas tarefas e ciclos concluídos ficam salvos no{" "}
             <RouterLink href="/history/">histórico</RouterLink>, com status de
@@ -109,20 +107,20 @@ export function AboutPomodoro() {
 
           <h2>Por que usar o Chronos Pomodoro?</h2>
           <ul>
-            <li>✅ Organize seu foco com clareza.</li>
-            <li>✅ Trabalhe e descanse na medida certa.</li>
-            <li>✅ Personalize seus próprios ciclos e tempos.</li>
-            <li>✅ Acompanhe seu histórico automaticamente.</li>
+            <li>Organize seu foco com clareza.</li>
+            <li>Trabalhe e descanse na medida certa.</li>
+            <li>Personalize seus próprios ciclos e tempos.</li>
+            <li>Acompanhe seu histórico automaticamente.</li>
           </ul>
 
           <p>
-            <strong>Pronto pra focar?</strong> Bora lá{" "}
+            <strong>Pronto para focar?</strong> Vamos{" "}
             <RouterLink href="/">voltar para a página inicial</RouterLink> e
-            iniciar seus Pomodoros! 🍅🚀
+            iniciar seus Pomodoros!
           </p>
 
           <p>
-            <em>"Foco total, sem pressa, sem pausa, só vai!"</em> 💪🧘‍♂️
+            <em>"Foco total, ritmo constante, sempre avançando!"</em>
           </p>
         </GenericHtml>
       </Container>
