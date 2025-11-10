@@ -86,9 +86,9 @@ export function AboutPomodoro() {
             representando os ciclos:
           </p>
           <ul>
-            <li>🟡 Amarelo: Ciclo de trabalho (foco).</li>
-            <li>🟢 Verde: Descanso curto.</li>
-            <li>🔵 Azul: Descanso longo (aparece a cada 8 ciclos).</li>
+            <li>● Âmbar: Ciclo de trabalho (foco).</li>
+            <li>● Azul royal: Descanso curto.</li>
+            <li>● Azul brilhante: Descanso longo (aparece a cada 8 ciclos).</li>
           </ul>
 
           <p>

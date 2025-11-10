@@ -21,44 +21,44 @@
 */
 
 :root {
-  /* 🎭 Tons de Cinza (cores dinâmicas que mudam entre claro/escuro) */
-  --gray-100: #e6e9f0; /* Cinza mais claro (usado para fundos no modo escuro) */
+  /* 🎭 Tons de Cinza/Azul (cores dinâmicas que mudam entre claro/escuro) - Estilo Imowash */
+  --gray-100: #F2F2F2; /* Cinza muito claro (quase branco - texto no modo escuro) */
   --gray-200: #cdd3e1;
   --gray-300: #aab3cc;
   --gray-400: #555f7d;
   --gray-500: #454f6a;
-  --gray-600: #363d56;
-  --gray-700: #272f43; /* Bordas e separadores */
-  --gray-800: #181f2e; /* Fundo de cartões e áreas destacadas */
-  --gray-900: #0a0f1a; /* Fundo principal do site */
+  --gray-600: #1F64BF; /* Azul médio brilhante - Imowash */
+  --gray-700: #032CA6; /* Azul royal profundo - Bordas e separadores */
+  --gray-800: #040DBF; /* Azul vibrante/elétrico - Fundo de cartões */
+  --gray-900: #010326; /* Azul extremamente escuro - Fundo principal do site */
 
   /* 🌿 Cores Primárias (cores fixas - NÃO mudam com o tema) */
-  --primary-light: #4de7b7; /* Usado para realces suaves */
-  --primary: #0da170; /* Cor principal do projeto */
-  --primary-dark: #065f46; /* Usado em hovers e elementos ativos */
+  --primary-light: #1F64BF; /* Usado para realces suaves - Azul médio brilhante (Imowash) */
+  --primary: #032CA6; /* Cor principal do projeto - Azul royal profundo (Imowash) */
+  --primary-dark: #040DBF; /* Usado em hovers e elementos ativos - Azul vibrante/elétrico (Imowash) */
 
   /* 🔗 Links */
-  --link-color: #10b981; /* Cor padrão dos links */
-  --link-hover: #0b8a60; /* Cor dos links ao passar o mouse */
+  --link-color: #1F64BF; /* Cor padrão dos links - Azul médio brilhante */
+  --link-hover: #040DBF; /* Cor dos links ao passar o mouse - Azul vibrante/elétrico */
 
-  /* 🚦 Alertas (cores fixas, usadas para feedbacks visuais) */
-  --success: #22c55e; /* Indica sucesso (verde) */
-  --warning: #eab308; /* Indica alerta (amarelo) */
-  --error: #991b1b; /* Indica erro (vermelho) */
-  --info: #0ea5e9; /* Indica informação (azul) */
+  /* 🚦 Alertas (cores fixas, usadas para feedbacks visuais) - Complementares Imowash */
+  --success: #10b981; /* Indica sucesso - Verde menta (complementar ao azul) */
+  --warning: #f59e0b; /* Indica alerta - Âmbar */
+  --error: #ef4444; /* Indica erro - Vermelho suave */
+  --info: #1F64BF; /* Indica informação - Azul médio brilhante (Imowash) */
 
-  /* 🎨 Texto sobre fundos coloridos (para garantir contraste) */
-  --text-over-primary: #0a0f1a; /* Texto sobre fundo primário */
-  --text-over-primary-dark: #e6e9f0; /* Texto sobre variação escura */
-  --text-over-primary-light: #0a0f1a; /* Texto sobre variação clara */
-  --text-over-success: #0a0f1a; /* Texto sobre fundo sucesso */
-  --text-over-warning: #0a0f1a; /* Texto sobre fundo alerta */
-  --text-over-error: #e6e9f0; /* Texto sobre fundo erro */
-  --text-over-info: #0a0f1a; /* Texto sobre fundo informativo */
+  /* 🎨 Texto sobre fundos coloridos (para garantir contraste) - Estilo Imowash */
+  --text-over-primary: #F2F2F2; /* Texto sobre fundo primário (#032CA6 azul royal) - Branco suave */
+  --text-over-primary-dark: #F2F2F2; /* Texto sobre variação escura (#040DBF azul vibrante) - Branco suave */
+  --text-over-primary-light: #F2F2F2; /* Texto sobre variação clara (#1F64BF azul médio) - Branco suave */
+  --text-over-success: #010326; /* Texto sobre fundo sucesso (#10b981 verde menta) - Escuro */
+  --text-over-warning: #010326; /* Texto sobre fundo alerta (#f59e0b âmbar) - Escuro */
+  --text-over-error: #F2F2F2; /* Texto sobre fundo erro (#ef4444 vermelho) - Branco suave */
+  --text-over-info: #F2F2F2; /* Texto sobre fundo informativo (#1F64BF azul médio) - Branco suave */
 
   /* 📝 Cores do Texto (dinâmicas) */
-  --text-default: #e6e9f0; /* Cor padrão do texto */
-  --text-muted: #aab3cc; /* Texto menos importante (placeholders, labels, etc.) */
+  --text-default: #F2F2F2; /* Cor padrão do texto - Branco suave (Imowash) */
+  --text-muted: #1F64BF; /* Texto menos importante (placeholders, labels, etc.) - Azul médio brilhante */
 
   /* 🚫 Cores para botões e elementos desativados */
   --disabled: #555f7d; /* Cor de fundo de elementos desativados */
@@ -95,8 +95,8 @@
   --text-muted: #272f43; /* Texto menos importante */
 
   /* 🔗 Links no modo claro */
-  --link-color: #0b8a60;
-  --link-hover: #065f46;
+  --link-color: #032CA6; /* Azul royal profundo */
+  --link-hover: #040DBF; /* Azul vibrante/elétrico */
 
   /* 🔔 Toastify no modo claro */
   --toastify-text-color-light: #e6e9f0;
